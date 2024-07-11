@@ -1,3 +1,4 @@
+//Se realiza una Carpeta y un archivo .TXT en el disco C y luego se agrega contenido al Block de notas
 PS C:\> New-Item Practica -ItemType directory
 PS C:\> Cd .. Practica
 PS C:\practica> New-Item Block.txt -ItemType file

@@ -1,0 +1,4 @@
+//Listar Todos los  Servicios del sistema, detener uno y luego volver a iniciarlo
+PS C:\> get-service *
+PS C:\> Stop-Service wmiapsrv
+PS C:\> Start-Service wmiapsrv

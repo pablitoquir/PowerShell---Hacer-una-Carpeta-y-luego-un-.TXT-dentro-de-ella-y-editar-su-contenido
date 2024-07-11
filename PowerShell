@@ -1,0 +1,5 @@
+PS C:\> New-Item Practica -ItemType directory
+PS C:\> Cd .. Practica
+PS C:\practica> New-Item Block.txt -ItemType file
+PS C:\practica> Set-Content -Path  ./block.txt -Value "Hola, es un block de notas"
+
